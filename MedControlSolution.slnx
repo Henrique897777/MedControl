@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MedControl.App/MedControl.App.csproj" />
+  <Project Path="MedControl.Tests/MedControl.Tests.csproj" />
+</Solution>

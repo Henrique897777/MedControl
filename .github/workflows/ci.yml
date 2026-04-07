@@ -1,0 +1,29 @@
+name: CI do MedControl
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v3
+
+    - name: Configurar o .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Instalar dependências
+      run: dotnet restore
+
+    - name: Rodar Linting (Análise Estática)
+      run: dotnet format --verify-no-changes
+
+    - name: Rodar Testes Automatizados
+      run: dotnet test --no-restore --verbosity normal
