@@ -3,7 +3,7 @@
 ![Versão](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![CI](https://github.com/SEU_USUARIO/MedControl/actions/workflows/ci.yml/badge.svg)
 
-🚀 **Acesso à aplicação:** [Clique aqui para testar o sistema no Replit] [https://replit.com/@gh972027/MedControl] https://replit.com/join/qtbesyzfua-gh972027
+🚀 **Acesso à aplicação:** [Clique aqui para testar o sistema no Replit] https://replit.com/@gh972027/MedControl
 
 ## Problema Real e Proposta
 **Dor social:** Muitos idosos (e seus cuidadores) possuem dificuldades em gerenciar horários de múltiplos medicamentos, o que pode levar a esquecimentos, perdas de horário ou superdosagem.
